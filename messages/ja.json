@@ -1,0 +1,480 @@
+{
+    "HomePage": {
+        "title": "SABAI ALIGN",
+        "hero": "「自分」というシステムを、再起動する。",
+        "subhero": "感覚だけでなく、データで整える。バンコクのウェルネス体験を「Human OS（心身のOS）」のメンテナンスとして再定義します。",
+        "buttons": {
+            "search": "理想の施設を探す",
+            "diagnostic": "AIウェルネス診断"
+        },
+        "tourism": {
+            "title": "心と身体を整える旅へ",
+            "subtitle": "厳選されたウェルネスツーリズム・リトリートプログラム",
+            "teaser_button": "リトリートプログラムを見る"
+        },
+        "features": {
+            "title": "SABAI ALIGNについて",
+            "data_driven": {
+                "title": "データ駆動",
+                "desc": "AI診断結果に基づいた、あなたに最適なプランを提案。"
+            },
+            "curated": {
+                "title": "厳選された体験",
+                "desc": "バンコク最高峰のウェルネス施設のみを掲載。"
+            },
+            "holistic": {
+                "title": "ホリスティック",
+                "desc": "心・体・回復を網羅したトータルケア。"
+            }
+        },
+        "categories_title": "カテゴリーから探す",
+        "categories_desc": "今のあなたの状態に合わせた、最適な体験を見つけましょう。",
+        "popular_title": "人気の体験"
+    },
+    "TourismPage": {
+        "hero_title": "バンコク・ウェルネス・ジャーニー",
+        "hero_subtitle": "都会にいながら、心とカラダを整える。",
+        "packages": {
+            "rakxa": {
+                "title": "RAKxa（ラクサ）統合医療リトリート",
+                "duration": "3日間〜",
+                "price": "฿175,000〜",
+                "description": "バンクラチャオ（バンコクの緑の肺）に位置する統合医療ウェルネスリトリート。最先端の医療診断と伝統的な癒しを融合させた、パーソナライズドプログラム。",
+                "inclusions": [
+                    "医療専門家によるコンサルテーション",
+                    "遺伝子・腸内環境検査",
+                    "デトックス＆栄養プログラム",
+                    "瞑想・ヨガセッション"
+                ]
+            },
+            "sindhorn": {
+                "title": "Sindhorn Wellness by Resense",
+                "duration": "半日〜",
+                "price": "฿6,000〜",
+                "description": "バンコクの中心地に佇む、最高級のウェルネス・サンクチュアリ。ハイドロセラピーやサーマルジャーニーなど、都会的なリトリート体験を提供。",
+                "inclusions": [
+                    "サーマル・ジャーニー体験",
+                    "ハマム・トリートメント",
+                    "フローティング瞑想",
+                    "ヴィシーシャワー"
+                ]
+            },
+            "greenroom": {
+                "title": "The Green Room Yoga Studio",
+                "duration": "ドロップイン / 月額",
+                "price": "฿500〜 / クラス",
+                "description": "スクンビット31に位置するバンコク屈指のブティックヨガスタジオ。週80以上のクラスを提供し、ヨガ、ピラティス、サウンドバスなど多彩なプログラム。",
+                "inclusions": [
+                    "全レベル対応ヨガクラス",
+                    "サウンドヒーリングセッション",
+                    "ピラティスクラス",
+                    "経験豊富なインストラクター"
+                ]
+            }
+        },
+        "book_button": "詳細を見る / お問い合わせ",
+        "includes_label": "含まれるもの"
+    },
+    "nav": {
+        "home": "ホームに戻る",
+        "diagnostic": "診断する",
+        "explore": "体験を探す",
+        "tours": "リトリート / ツアー",
+        "events": "イベント",
+        "shop": "グッズ",
+        "guide": "ガイド",
+        "dashboard": "Myダッシュボード",
+        "business": "掲載・提携",
+        "login": "ログイン"
+    },
+    "footer": {
+        "platform": "プラットフォーム",
+        "company": "会社情報",
+        "tagline1": "Science meets Spirit.",
+        "tagline2": "データに基づくウェルネス体験で、あなたのHuman OSを最適化。",
+        "privacy": "プライバシーポリシー",
+        "terms": "利用規約"
+    },
+    "diagnostic": {
+        "intro": {
+            "title": "AIエンジニアリング・スキャナー (Beta)",
+            "subtitle": "あなたの「脳の疲れ具合（CPU）」と「身体の元気度（バッテリー）」を可視化します。",
+            "bubble": "Human OS Dashboardへようこそ。今のあなたのシステム状態（心身のコンディション）をスキャンし、最適なメンテナンス方法を提案します。",
+            "analyzing": "システムログを解析中..."
+        },
+        "questions": {
+            "consent": "始める前に、ご確認ください：この診断は医療行為ではありません。体調が優れない場合は医師にご相談ください。",
+            "phq_1": "過去2週間：神経過敏、不安、または気が張り詰めると感じた？",
+            "phq_2": "過去2週間：心配するのを止められない、またはコントロールできないと感じた？",
+            "phq_3": "過去2週間：あまり興味や喜びを感じない？",
+            "phq_4": "過去2週間：気分が落ち込む、憂うつ、または絶望的だと感じた？",
+            "who_1": "過去2週間：機嫌がよく、生き生きとしていた",
+            "who_2": "過去2週間：落ち着いてリラックスしていた",
+            "who_3": "過去2週間：活動的で、やる気にあふれていた",
+            "who_4": "過去2週間：すっきりと目覚め、十分に休息がとれていた",
+            "who_5": "過去2週間：日々の生活の中に、興味のあることがたくさんあった",
+            "sleep_1": "睡眠について：寝つきが悪いと感じますか？",
+            "sleep_2": "夜中や早朝に目が覚めてしまいますか？",
+            "sleep_3": "朝起きた時、すっきり回復したと感じますか？（これだけ逆転スコア）",
+            "sleep_4": "日中、眠気や集中力の低下を感じますか？",
+            "sleep_5": "就寝・起床時間は不規則ですか？",
+            "pss_1": "過去1ヶ月：予期せぬ出来事によって動揺しましたか？",
+            "pss_2": "過去1ヶ月：個人的な問題を解決する自信がないと感じましたか？",
+            "pss_3": "過去1ヶ月：物事が順調に進んでいないと感じましたか？",
+            "pss_4": "過去1ヶ月：困難が多すぎて、乗り越えられないと感じましたか？",
+            "act_1": "活動量：息が上がるような強い運動を週に何日しますか？",
+            "act_2": "活動量：軽く汗ばむ程度の中強度の運動を週に何日しますか？",
+            "act_3": "活動量：30分以上の歩行を週に何日しますか？",
+            "symptom_main": "今、一番つらいと感じる部分はどこですか？",
+            "symptom_focus": "現在の集中力はどうですか？",
+            "symptom_body_feel": "体の感覚はどうですか？"
+        },
+        "options": {
+            "consent_opt_agree": "同意して始める",
+            "symptom_brain": "頭・思考 (Brain)",
+            "symptom_body": "体・疲労 (Body)",
+            "symptom_eyes": "目・神経 (Eyes)",
+            "symptom_mood": "気分・感情 (Mood)",
+            "symptom_focus_good": "良好",
+            "symptom_focus_distracted": "気が散る",
+            "symptom_focus_foggy": "ぼーっとする",
+            "symptom_body_normal": "普通",
+            "symptom_body_tense": "ガチガチに深張",
+            "symptom_body_heavy": "鉛のように重い",
+            "not_at_all": "まったくない (0日)",
+            "several_days": "数日ある (1-6日)",
+            "more_half": "半分以上 (7-11日)",
+            "nearly_every": "ほぼ毎日 (12-14日)",
+            "all_time": "いつもある (毎日)",
+            "most_time": "大半の時間 (週5-6日)",
+            "less_half": "半分以下 (週2-3日)",
+            "some_time": "ときどき (週1日以下)",
+            "at_no_time": "全くない (0日)",
+            "never": "ない (0日)",
+            "sometimes": "ときどき (週1-2日)",
+            "often": "しばしば (週3-4日)",
+            "always": "いつもある (ほぼ毎日)",
+            "very_often": "非常によくある",
+            "fairly_often": "時々ある",
+            "almost_never": "ほとんどない",
+            "days_0": "0日",
+            "days_1_2": "1-2日",
+            "days_3_plus": "3日以上",
+            "days_3_4": "3-4日",
+            "days_5_plus": "5日以上",
+            "no_regular": "いいえ（規則的）",
+            "slightly": "少し不規則",
+            "moderately": "やや不規則",
+            "very_irregular": "非常に不規則"
+        },
+        "results": {
+            "title": "あなたのウェルネス処方箋",
+            "themes": {
+                "Sleep": "OS再起動 (良質な睡眠でリセット)",
+                "Mental Recovery": "CPU冷却 (脳のクールダウン)",
+                "Stress Relief": "キャッシュクリア (ストレスの排出)",
+                "Active": "パフォーマンス向上 (活性化)",
+                "Balance": "システム安定 (好調を維持)"
+            },
+            "summary_intro": "チェックインありがとうございます。分析の結果、今のあなたに最も必要なテーマは **{theme}** です。",
+            "summary_sleep": "睡眠の質が著しく低下しており、それが日中のパフォーマンスや他の不調の根本原因になっている可能性が高いです。今は無理に動くよりも、徹底的に「休む」技術を取り入れる時です。",
+            "summary_mental": "心のエネルギーが枯渇しかけています。責任感から多くのことを抱え込みすぎているかもしれません。今は「何もしない時間」を意識的に確保し、神経系を鎮めることが最優先です。",
+            "summary_stress": "過度なプレッシャーに対し、心身が「戦うか逃げるか」の緊張状態にあります。溜まったエネルギーを身体的な動作で解放（ディスチャージ）しないと、慢性的な疲労につながります。",
+            "summary_active": "数値上、少し運動不足の傾向が見られます。身体活動が減ることで、逆に気分が停滞し、疲れやすくなっている悪循環にあります。軽い有酸素運動が、最も効果的な気分の特効薬になります。",
+            "summary_balance": "素晴らしい状態です！心身のバランスが非常に良好に保たれています。この調子を維持するために、新しいウェルネス体験を取り入れて、さらなる自己肯定感を育みましょう。",
+            "observations": {
+                "obs_sleep_poor": "睡眠の質に課題が見られ、回復が追いついていません。",
+                "obs_mental_strain": "気分の波があり、精神的な疲れが蓄積しているようです。",
+                "obs_high_stress": "ストレス耐性の限界に近く、緊張が解けていません。",
+                "obs_sedentary": "座りっぱなしや、身体を動かす機会が不足しています。",
+                "obs_good_state": "全体的なバイタリティが高く、良いリズムに乗れています。"
+            },
+            "warning_phq": "気分の落ち込みが見られます。辛い状態が続く場合は、専門家への相談も検討してください。",
+            "warning_sleep": "睡眠に大きな乱れがあるようです。続くようなら医師への相談をお勧めします。",
+            "sections": {
+                "today": "緊急パッチ：今すぐできるケア (Immediate)",
+                "week": "OSアップデート：心身を整える体験 (Experience)",
+                "weekend": "システム初期化：非日常のリトリート (Retreat)",
+                "products": "拡張ツール：回復を助けるアイテム (Products)"
+            },
+            "cta": "このプランを予約・保存",
+            "disclaimer": "※この診断は医療行為ではありません。心身の不調を感じる場合は専門医にご相談ください。"
+        },
+        "items": {
+            "a01_title": "5分間ボックス呼吸",
+            "a01_desc": "神経系をリセットする呼吸法。",
+            "a02_title": "デジタル・サンセット",
+            "a02_desc": "就寝1時間前にスマホをオフ。",
+            "a03_title": "朝の散歩",
+            "a03_desc": "15分の日光浴で体内時計をリセット。",
+            "e01_title": "貸切温泉＆冷水浴",
+            "e01_desc": "バンコク市内で自律神経を整える温冷交代浴。",
+            "e02_title": "Patom Organic Living",
+            "e02_desc": "緑溢れるガラスハウスで楽しむ、オーガニックランチとスイーツ。",
+            "e03_title": "RSM Muay Thai Academy",
+            "e03_desc": "初心者でも安心。Asoke駅直結のスタジオでムエタイ・エクササイズ。",
+            "w01_title": "アーバン・フォレスト・リトリート",
+            "w01_desc": "バーンカチャオの森で過ごす1日。",
+            "w02_title": "Akasha Sound Healing",
+            "w02_desc": "チベタンボウルとゴングの倍音に包まれる、深いリラクゼーション体験。",
+            "p01_title": "Oura Ring Gen3",
+            "p01_desc": "睡眠と回復を可視化する指輪型デバイス。",
+            "p02_title": "メラトニングミ",
+            "p02_desc": "自然な眠りをサポートするサプリ。",
+            "p03_title": "アシュワガンダ",
+            "p03_desc": "ストレス耐性を高めるハーブ。",
+            "p04_title": "ヨガマットPro",
+            "p04_desc": "自宅トレーニングに最適なマット。",
+            "p05_title": "ノイキャンヘッドホン",
+            "p05_desc": "静寂で集中と休息を深める。"
+        },
+        "cooldown": {
+            "title": "システム安定化期間",
+            "desc": "正確な診断のため、次回のスキャンまで{days}日間の待機が必要です。現在は回復プログラムに集中してください。"
+        }
+    },
+    "categories": {
+        "recovery": "リカバリー",
+        "mind": "マインド",
+        "body": "ボディ",
+        "nature": "自然",
+        "food": "食",
+        "community": "コミュニティ"
+    },
+    "ExplorePage": {
+        "title": "体験を探す",
+        "subtitle": "バンコク屈指のウェルネス・サンクチュアリ。",
+        "popular_title": "バンコクで人気のウェルネス体験 Top 3",
+        "popular_subtitle": "今、バンコクで最も注目されている癒やしのスタイル",
+        "categories_title": "カテゴリーから探す",
+        "categories": {
+            "recovery": "リカバリー",
+            "mind": "マインド",
+            "body": "ボディ",
+            "nature": "自然",
+            "food": "食",
+            "community": "コミュニティ"
+        },
+        "search_cta_title": "あなただけのサンクチュアリを見つけよう",
+        "search_cta_desc": "エリア、目的、予算に合わせて、最適なウェルネス体験を検索できます。",
+        "search_button": "詳細検索へ",
+        "items": {
+            "holistic": {
+                "title": "Loft Thai Boutique Spa & Massage",
+                "desc": "Time Out「Best Spa in Bangkok 2025」受賞。伝統タイ式マッサージとモダンラグジュアリーを融合。Thai Warrior Massage、CBDオイルセラピーが人気。"
+            },
+            "medical": {
+                "title": "Divana Divine Spa",
+                "desc": "World Spa Awardsノミネート。タイ発祥のプレミアムスパブランド。ハーブを使った独自トリートメントとラグジュアリーな空間で極上の癒しを。"
+            },
+            "active": {
+                "title": "Absolute You Wellness",
+                "desc": "バンコクのホットヨガ・リーダー。ダイナミックなムーブメントと多彩なクラスカテゴリーで、心と体を活性化。初心者から上級者まで対応。"
+            }
+        }
+    },
+    "EventsPage": {
+        "title": "イベント",
+        "subtitle": "心身を整えるワークショップや集い。",
+        "upcoming_title": "近日開催のイベント",
+        "join_button": "参加申し込み",
+        "date_tba": "日程調整中",
+        "price_free": "無料",
+        "items": {
+            "yoga_park": {
+                "title": "サンライズ・ヨガ @ ルンピニー公園",
+                "desc": "毎朝開催される無料公開ヨガ。広大な緑に囲まれながら、新鮮な空気を吸い込み一日をスタート。初心者大歓迎。"
+            },
+            "sound_bath": {
+                "title": "サウンドヒーリング @ Akasha Wellness",
+                "desc": "チャオプラヤ川沿いに位置するAkasha Wellnessで開催。ゴング、チベタンボウル、クリスタルボウルの音の波動で深いリラクゼーションへ。"
+            },
+            "nutrition": {
+                "title": "ローフード＆デトックス @ Rasayana Retreat",
+                "desc": "プロンポンの隠れ家「Rasayana Retreat」で学ぶ、酵素たっぷりのローフード食事法。身体の中からキレイになるデトックス体験。"
+            }
+        }
+    },
+    "ShopPage": {
+        "title": "グッズ",
+        "subtitle": "ウェルネスライフを彩る厳選アイテム。",
+        "bestsellers_title": "ベストセラー",
+        "items": {
+            "herbal_ball": {
+                "title": "オーガニック・ハーブボール",
+                "desc": "タイ伝統医学の知恵。温めて身体に押し当てるだけで血行促進。"
+            },
+            "sleep_mist": {
+                "title": "ディープ・スリープミスト",
+                "desc": "ラベンダーとサンダルウッドの香りで、深い眠りへ誘います。"
+            },
+            "singing_bowl": {
+                "title": "手打ちシンギングボウル",
+                "desc": "ネパールの職人が一つ一つ手作りした、癒やしの音色。"
+            },
+            "yoga_mat": {
+                "title": "天然ゴム・ヨガマット",
+                "desc": "滑りにくく、地球に優しいサステナブル素材。"
+            }
+        }
+    },
+    "GuidePage": {
+        "title": "ガイド",
+        "subtitle": "賢く旅するためのウェルネス知識。",
+        "articles_title": "最新の記事",
+        "read_more": "続きを読む",
+        "read_time": "読了{min}分",
+        "categories": {
+            "general": "総合",
+            "mind": "マインド",
+            "body": "ボディ"
+        },
+        "items": {
+            "bkk_guide": {
+                "title": "バンコク・ウェルネスガイド 2026",
+                "desc": "初心者でも安心。市内中心部から隠れ家リトリートまで、絶対に外せないスポット10選。"
+            },
+            "meditation_101": {
+                "title": "はじめてのヴィパッサナー瞑想",
+                "desc": "「気づき」の瞑想とは？ 忙しい現代人のためのマインドフルネス入門。"
+            },
+            "thai_massage": {
+                "title": "タイ古式マッサージの知られざる効果",
+                "desc": "単なるマッサージではない。「二人で行うヨガ」と呼ばれる伝統技法の秘密に迫る。"
+            }
+        }
+    },
+    "Diagnostic": {
+        "title": "AIウェルネス診断"
+    },
+    "Dashboard": {
+        "greeting": "Hello, {name}",
+        "system_status": "システム稼働中",
+        "cpu": "脳の疲れ",
+        "battery": "体の疲れ",
+        "stability": "心の疲れ",
+        "stress_level": "ストレスレベル",
+        "stress_history": "過去7日間の履歴",
+        "live": "計測中",
+        "no_data": "データなし",
+        "no_logs": "記録がありません",
+        "upgrades": "おすすめアイテム",
+        "protocols": "今すぐできるセルフケア",
+        "weekly_picks": "週間おすすめ",
+        "for_you": "あなたへ",
+        "spot": "おすすめスポット",
+        "event": "おすすめイベント",
+        "greetings": {
+            "morning": "System Online. おはようございます、{name}さん。",
+            "afternoon": "Running Smoothly. こんにちは、{name}さん。",
+            "evening": "Maintenance Mode. こんばんは、{name}さん。",
+            "night": "Sleep Mode Rec. お疲れ様です、{name}さん。"
+        },
+        "streak": {
+            "label": "System Uptime",
+            "unit": "Days"
+        },
+        "quick_scan": {
+            "title": "デイリースキャン",
+            "desc": "ワンタップ記録",
+            "button": "スキャン実行"
+        },
+        "quick_update": {
+            "title": "今の状態をアップデート",
+            "desc": "3つの質問で現在のコンディションを記録",
+            "button": "アップデート",
+            "stress_label": "ストレス",
+            "stress_low": "リラックス",
+            "stress_high": "緊張",
+            "energy_label": "エネルギー",
+            "energy_low": "疲れ気味",
+            "energy_high": "元気",
+            "mood_label": "気分",
+            "mood_low": "低め",
+            "mood_high": "良い",
+            "submit": "記録する",
+            "cancel": "キャンセル",
+            "success": "記録しました！"
+        },
+        "comparison": {
+            "improved": "改善",
+            "declined": "低下",
+            "no_change": "維持",
+            "vs_previous": "前回比"
+        },
+        "habits": {
+            "title": "デイリーハビット",
+            "desc": "達成するとコンディションが改善されます",
+            "progress": "今日の達成度",
+            "recommended": "あなたへのおすすめ",
+            "recommended_desc": "今のコンディションに最適",
+            "morning_sun": "朝の光を浴びる",
+            "walk": "朝の散歩",
+            "workout": "運動・トレーニング",
+            "meditation": "マインドフルネス瞑想",
+            "sauna": "サウナ・温冷交代浴",
+            "massage": "マッサージ・ボディケア",
+            "digital_detox": "寝る前スマホ断ち",
+            "sleep": "7時間以上の睡眠",
+            "completed": "達成！",
+            "bonus": "ボーナス",
+            "difficulty": "難易度",
+            "reset_notice": "毎日0時にリセット"
+        },
+        "diagnosis": {
+            "title": "システム診断レポート",
+            "optimal": {
+                "title": "ピークパフォーマンス",
+                "desc": "全システムが最適化されています。高負荷タスクも問題なく処理可能です。",
+                "action": "新しい挑戦 / 高難易度タスク"
+            },
+            "brain_fog": {
+                "title": "脳疲労（過負荷）",
+                "desc": "脳の処理負荷が増大しています。判断力が低下する恐れがあります。",
+                "action": "単純作業 / 散歩でリセット"
+            },
+            "low_battery": {
+                "title": "肉体疲労（枯渇）",
+                "desc": "身体エネルギーが枯渇しています。思考はクリアですが、身体活動は控えめに。",
+                "action": "ストレッチ / 早期就寝"
+            },
+            "high_stress": {
+                "title": "精神的不安定",
+                "desc": "精神的な負荷が高まっています。強制的なシャットダウン（休息）が必要です。",
+                "action": "瞑想 / デジタルデトックス"
+            },
+            "balanced_fatigue": {
+                "title": "全体的消耗",
+                "desc": "全体的にリソースが低下しています。省電力モードで稼働してください。",
+                "action": "温浴 / 十分な睡眠"
+            },
+            "critical": {
+                "title": "緊急停止推奨（極限）",
+                "desc": "システム限界に達しました。直ちに全ての活動を停止し、リカバリーが必要です。",
+                "action": "即時休息"
+            },
+            "digital_overload": {
+                "title": "デジタル過負荷",
+                "desc": "デジタル眼精疲労を検知。視覚情報過多により、脳の処理速度が低下しています。",
+                "action": "ホットアイマスク / 遠くを見る"
+            },
+            "physical_tension": {
+                "title": "身体的緊張",
+                "desc": "筋肉の過緊張状態です。交感神経が優位になりすぎており、リラックスが必要です。",
+                "action": "マッサージ / ストレッチ"
+            },
+            "deep_exhaustion": {
+                "title": "深部疲労",
+                "desc": "深部疲労が蓄積しています。表面的な休息では回復しないため、質の高い睡眠が必要です。",
+                "action": "温浴 / 睡眠優先"
+            },
+            "scattered_mind": {
+                "title": "注意散漫（脳疲労）",
+                "desc": "注意散漫な状態です。マルチタスクにより脳のメモリが断片化しています。",
+                "action": "シングルタスク / 瞑想"
+            }
+        },
+        "back_to_dashboard": "ダッシュボードに戻る",
+        "recovery_efficiency": "回復効率"
+    }
+}

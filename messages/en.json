@@ -1,0 +1,462 @@
+{
+  "HomePage": {
+    "title": "SABAI ALIGN",
+    "hero": "Reclaim Your Flow",
+    "subhero": "Spas, meditation, and wellness experiences curated by AI for your well-being in Bangkok.",
+    "buttons": {
+      "search": "Find Your Sanctuary",
+      "diagnostic": "Start AI Diagnosis"
+    },
+    "tourism": {
+      "title": "Journey to Wellness",
+      "subtitle": "Curated wellness tourism and retreat programs.",
+      "teaser_button": "View All Retreats"
+    },
+    "features": {
+      "title": "Why SABAI ALIGN?",
+      "data_driven": {
+        "title": "Data-Driven",
+        "desc": "Personalized recommendations based on your AI diagnostic results."
+      },
+      "curated": {
+        "title": "Curated",
+        "desc": "Only the highest quality wellness experiences in Bangkok."
+      },
+      "holistic": {
+        "title": "Holistic",
+        "desc": "Covering Mind, Body, and Recovery for total well-being."
+      }
+    },
+    "categories_title": "Browse by Category",
+    "categories_desc": "Find the perfect experience for your current state.",
+    "popular_title": "Popular Experiences"
+  },
+  "TourismPage": {
+    "hero_title": "Bangkok Wellness Journeys",
+    "hero_subtitle": "Rest, recover, and rediscover yourself in the heart of Bangkok.",
+    "packages": {
+      "rakxa": {
+        "title": "RAKxa Integrative Wellness",
+        "duration": "3 Days+",
+        "price": "From ฿175,000",
+        "description": "An integrative medical wellness retreat located in Bang Krachao (Bangkok's green lung). Personalized programs combining cutting-edge medical diagnostics with traditional healing.",
+        "inclusions": [
+          "Medical Consultation",
+          "Genetic & Gut Health Testing",
+          "Detox & Nutrition Program",
+          "Meditation & Yoga Sessions"
+        ]
+      },
+      "sindhorn": {
+        "title": "Sindhorn Wellness by Resense",
+        "duration": "Half Day+",
+        "price": "From ฿6,000",
+        "description": "The ultimate wellness sanctuary in the heart of Bangkok. Featuring hydrotherapy and thermal journeys for a luxurious urban retreat.",
+        "inclusions": [
+          "Thermal Journey Experience",
+          "Hammam Treatments",
+          "Floating Meditation",
+          "Vichy Shower"
+        ]
+      },
+      "greenroom": {
+        "title": "The Green Room Yoga Studio",
+        "duration": "Drop-in / Monthly",
+        "price": "From ฿500 / class",
+        "description": "Bangkok's premier boutique yoga studio in Sukhumvit 31. Over 80 weekly classes including yoga, Pilates, and sound baths.",
+        "inclusions": [
+          "All-Level Yoga Classes",
+          "Sound Healing Sessions",
+          "Pilates Classes",
+          "Experienced Instructors"
+        ]
+      }
+    },
+    "book_button": "Learn More / Inquire",
+    "includes_label": "Includes"
+  },
+  "nav": {
+    "diagnostic": "AI Diagnosis",
+    "explore": "Find Experiences",
+    "tours": "Retreats / Tours",
+    "events": "Events",
+    "shop": "Shop",
+    "guide": "Guide",
+    "dashboard": "My Dashboard",
+    "business": "For Business",
+    "login": "Login"
+  },
+  "footer": {
+    "platform": "Platform",
+    "company": "Company",
+    "tagline1": "Science meets Spirit.",
+    "tagline2": "Optimizing your Human OS through data-driven wellness experiences.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "categories": {
+    "recovery": "Recovery",
+    "mind": "Mind",
+    "body": "Body",
+    "nature": "Nature",
+    "food": "Food",
+    "community": "Community"
+  },
+  "ExplorePage": {
+    "title": "Explore Experiences",
+    "subtitle": "Curated sanctuaries in Bangkok.",
+    "popular_title": "Top 3 Popular Wellness in Bangkok",
+    "popular_subtitle": "Trending styles of healing in Bangkok",
+    "categories_title": "Browse by Category",
+    "categories": {
+      "recovery": "Recovery",
+      "mind": "Mind",
+      "body": "Body",
+      "nature": "Nature",
+      "food": "Food",
+      "community": "Community"
+    },
+    "search_cta_title": "Find Your Sanctuary",
+    "search_cta_desc": "Search for the perfect wellness experience by area, goal, and budget.",
+    "search_button": "Advanced Search",
+    "items": {
+      "holistic": {
+        "title": "Loft Thai Boutique Spa & Massage",
+        "desc": "Time Out 'Best Spa in Bangkok 2025'. Fusion of traditional Thai massage and modern luxury. Famous for Thai Warrior Massage and CBD oil therapy."
+      },
+      "medical": {
+        "title": "Divana Divine Spa",
+        "desc": "World Spa Awards nominee. Thai-born premium spa brand. Exquisite healing with signature herbal treatments in a luxurious setting."
+      },
+      "active": {
+        "title": "Absolute You Wellness",
+        "desc": "Bangkok's hot yoga leader. Dynamic movements and diverse class categories to activate mind and body. All levels welcome."
+      }
+    }
+  },
+  "EventsPage": {
+    "title": "Events",
+    "subtitle": "Workshops and gatherings for your well-being.",
+    "upcoming_title": "Upcoming Events",
+    "join_button": "Join Now",
+    "date_tba": "Date TBA",
+    "price_free": "Free",
+    "items": {
+      "yoga_park": {
+        "title": "Sunrise Yoga @ Lumpini Park",
+        "desc": "Free public yoga held every morning. Start your day surrounded by lush greenery and fresh air. Beginners welcome."
+      },
+      "sound_bath": {
+        "title": "Sound Healing @ Akasha Wellness",
+        "desc": "Held at Akasha Wellness on Charoen Nakhon (Riverside). Deep relaxation through the vibrations of gongs, Tibetan bowls, and crystal bowls."
+      },
+      "nutrition": {
+        "title": "Raw Food & Detox @ Rasayana Retreat",
+        "desc": "Learn about enzyme-rich raw food diets at Rasayana Retreat in Phrom Phong. Experience detox from the inside out."
+      }
+    }
+  },
+  "ShopPage": {
+    "title": "Shop",
+    "subtitle": "Curated items for your wellness lifestyle.",
+    "bestsellers_title": "Best Sellers",
+    "items": {
+      "herbal_ball": {
+        "title": "Organic Herbal Ball",
+        "desc": "Thai traditional wisdom. Warm up and press to improve circulation."
+      },
+      "sleep_mist": {
+        "title": "Deep Sleep Mist",
+        "desc": "Lavender and Sandalwood scent to guide you into deep sleep."
+      },
+      "singing_bowl": {
+        "title": "Handmade Singing Bowl",
+        "desc": "Handcrafted by artisans in Nepal, producing healing tones."
+      },
+      "yoga_mat": {
+        "title": "Natural Rubber Yoga Mat",
+        "desc": "Non-slip and sustainable material, kind to the earth."
+      }
+    }
+  },
+  "GuidePage": {
+    "title": "Guide",
+    "subtitle": "Wisdom for your wellness journey.",
+    "articles_title": "Latest Articles",
+    "read_more": "Read More",
+    "read_time": "{min} min read",
+    "categories": {
+      "general": "General",
+      "mind": "Mind",
+      "body": "Body"
+    },
+    "items": {
+      "bkk_guide": {
+        "title": "Bangkok Wellness Guide 2026",
+        "desc": "Must-visit spots from city centers to hidden retreats. Perfect for beginners."
+      },
+      "meditation_101": {
+        "title": "Intro to Vipassana Meditation",
+        "desc": "What is 'Insight' meditation? A mindfulness guide for busy modern people."
+      },
+      "thai_massage": {
+        "title": "Hidden Benefits of Thai Massage",
+        "desc": "More than just a massage. Exploring the secrets of 'Lazy Man's Yoga'."
+      }
+    }
+  },
+  "diagnostic": {
+    "intro": {
+      "title": "AI Engineering Scanner (Beta)",
+      "subtitle": "Visualizing your 'Brain Fatigue (CPU)' and 'Physical Vitality (Battery)'.",
+      "bubble": "Welcome to the Human OS Dashboard. We will scan your current system state (mind-body condition) and propose optimal maintenance methods.",
+      "analyzing": "Analyzing system logs..."
+    },
+    "questions": {
+      "consent": "Before starting: This diagnosis is not a medical procedure. Please consult a doctor if you are not feeling well.",
+      "phq_1": "Past 2 weeks: Feeling nervous, anxious, or on edge?",
+      "phq_2": "Past 2 weeks: Not being able to stop or control worrying?",
+      "phq_3": "Past 2 weeks: Little interest or pleasure in doing things?",
+      "phq_4": "Past 2 weeks: Feeling down, depressed, or hopeless?",
+      "who_1": "Past 2 weeks: I have felt cheerful and in good spirits",
+      "who_2": "Past 2 weeks: I have felt calm and relaxed",
+      "who_3": "Past 2 weeks: I have felt active and vigorous",
+      "who_4": "Past 2 weeks: I woke up feeling fresh and rested",
+      "who_5": "Past 2 weeks: My daily life has been filled with things that interest me",
+      "sleep_1": "Sleep: Do you have trouble falling asleep?",
+      "sleep_2": "Do you wake up during the night or early morning?",
+      "sleep_3": "Do you feel refreshed when you wake up in the morning? (Reverse score)",
+      "sleep_4": "Do you feel sleepy or lack concentration during the day?",
+      "sleep_5": "Are your sleep/wake times irregular?",
+      "pss_1": "Past month: Have you been upset because of something that happened unexpectedly?",
+      "pss_2": "Past month: Have you felt confident about your ability to handle your personal problems?",
+      "pss_3": "Past month: Have you felt that things were not going your way?",
+      "pss_4": "Past month: Have you felt difficulties were piling up so high that you could not overcome them?",
+      "act_1": "Activity: How many days/week do you do vigorous physical activity?",
+      "act_2": "Activity: How many days/week do you do moderate physical activity?",
+      "act_3": "Activity: How many days/week do you walk for at least 30 minutes?"
+    },
+    "options": {
+      "consent_opt_agree": "Agree and Start",
+      "not_at_all": "Not at all (0 days)",
+      "several_days": "Several days (1-6 days)",
+      "more_half": "More than half (7-11 days)",
+      "nearly_every": "Nearly every day (12-14 days)",
+      "all_time": "All of the time (Every day)",
+      "most_time": "Most of the time (5-6 days/week)",
+      "less_half": "Less than half (2-3 days/week)",
+      "some_time": "Some of the time (1 day/week or less)",
+      "at_no_time": "At no time (0 days)",
+      "never": "Never (0 days)",
+      "sometimes": "Sometimes (1-2 days/week)",
+      "often": "Often (3-4 days/week)",
+      "always": "Always (Almost every day)",
+      "very_often": "Very Often",
+      "fairly_often": "Fairly Often",
+      "almost_never": "Almost Never",
+      "days_0": "0 days",
+      "days_1_2": "1-2 days",
+      "days_3_plus": "3+ days",
+      "days_3_4": "3-4 days",
+      "days_5_plus": "5+ days",
+      "no_regular": "No (Regular)",
+      "slightly": "Slightly Irregular",
+      "moderately": "Moderately Irregular",
+      "very_irregular": "Very Irregular"
+    },
+    "results": {
+      "title": "Your Wellness Prescription",
+      "themes": {
+        "Sleep": "OS Reboot (Reset with Quality Sleep)",
+        "Mental Recovery": "CPU Cooling (Brain Cooldown)",
+        "Stress Relief": "Clear Cache (Stress Release)",
+        "Active": "Performance Boost (Activation)",
+        "Balance": "System Stable (Maintain Condition)"
+      },
+      "summary_intro": "Thanks for checking in. Analysis shows your most needed theme is **{theme}**.",
+      "summary_sleep": "Sleep quality is significantly lowered, likely the root cause of daytime performance issues. It is time to prioritize 'Rest' technology over activity.",
+      "summary_mental": "Mental energy is depleting. You may be carrying too much responsibility. Prioritize 'Doing Nothing' to calm your nervous system.",
+      "summary_stress": "Your mind and body are in a 'Fight or Flight' state due to pressure. Release accumulation through physical movement to avoid chronic fatigue.",
+      "summary_active": "Data suggests a lack of physical activity. Reduced movement correlates with stagnation and fatigue. Light aerobic exercise is your best medicine.",
+      "summary_balance": "Excellent state! Your mind-body balance is well maintained. Try new wellness experiences to further nurture self-affirmation.",
+      "observations": {
+        "obs_sleep_poor": "Sleep quality issues detected; recovery is not catching up.",
+        "obs_mental_strain": "Mood swings and mental fatigue accumulation detected.",
+        "obs_high_stress": "Near stress tolerance limit; tension is not releasing.",
+        "obs_sedentary": "Lack of movement or sedentary lifestyle detected.",
+        "obs_good_state": "Overall high vitality and good rhythm."
+      },
+      "warning_phq": "Signs of depressed mood detected. Please consider consulting a specialist if it persists.",
+      "warning_sleep": "Significant sleep disruption detected. Doctor consultation recommended if it continues.",
+      "sections": {
+        "today": "Emergency Patch: Immediate Care (Immediate)",
+        "week": "OS Update: Balancing Experience (Experience)",
+        "weekend": "System Initialization: Retreat (Retreat)",
+        "products": "Expansion Pack: Recovery Items (Products)"
+      },
+      "cta": "Book / Save this Plan",
+      "disclaimer": "*This diagnosis is not medical practice. Consult a doctor if you feel unwell."
+    },
+    "items": {
+      "a01_title": "5-min Box Breathing",
+      "a01_desc": "Breathing technique to reset the nervous system.",
+      "a02_title": "Digital Sunset",
+      "a02_desc": "Turn off phones 1 hour before bed.",
+      "a03_title": "Morning Walk",
+      "a03_desc": "Reset body clock with 15 mins of sunlight.",
+      "e01_title": "Private Onsen & Cold Plunge",
+      "e01_desc": "Contrast bath therapy in Bangkok to balance autonomic nerves.",
+      "e02_title": "Patom Organic Living",
+      "e02_desc": "Enjoy organic lunch and sweets in a glass house overflowing with greenery.",
+      "e03_title": "RSM Muay Thai Academy",
+      "e03_desc": "Authentic Muay Thai workout for all levels, connected to Asoke Station.",
+      "w01_title": "Urban Forest Retreat",
+      "w01_desc": "A day in Bang Kachao forest.",
+      "w02_title": "Akasha Sound Healing",
+      "w02_desc": "Deep relaxation guided by the overtones of Tibetan bowls and gongs.",
+      "p01_title": "Oura Ring Gen3",
+      "p01_desc": "Ring-type device to visualize sleep and recovery.",
+      "p02_title": "Melatonin Gummies",
+      "p02_desc": "Natural sleep support supplement.",
+      "p03_title": "Ashwagandha",
+      "p03_desc": "Herb to boost stress resistance.",
+      "p04_title": "Yoga Mat Pro",
+      "p04_desc": "Perfect mat for home training.",
+      "p05_desc": "Deepen focus and rest with silence."
+    },
+    "cooldown": {
+      "title": "System Stabilization Period",
+      "desc": "To ensure accurate diagnosis, a {days}-day standby period is required until the next scan. Please focus on your recovery program for now."
+    }
+  },
+  "Dashboard": {
+    "greeting": "Hello, {name}",
+    "system_status": "System Online",
+    "cpu": "Brain Load",
+    "battery": "Body Energy",
+    "stability": "Mental Stability",
+    "stress_level": "Stress Level",
+    "stress_history": "Last 7 Days",
+    "live": "Live",
+    "no_data": "No Data",
+    "no_logs": "No Logs Found",
+    "upgrades": "Recommended Items",
+    "protocols": "Self-Care Protocols",
+    "weekly_picks": "Weekly Picks",
+    "for_you": "For You",
+    "spot": "Place",
+    "event": "Event",
+    "greetings": {
+      "morning": "System Online. Good Morning, {name}.",
+      "afternoon": "Running Smoothly. Good Afternoon, {name}.",
+      "evening": "Maintenance Mode. Good Evening, {name}.",
+      "night": "Sleep Mode Recommended. Good Night, {name}."
+    },
+    "streak": {
+      "label": "System Uptime",
+      "unit": "Days"
+    },
+    "quick_scan": {
+      "title": "Daily Scan",
+      "desc": "Quick Check-in",
+      "button": "Run Scan"
+    },
+    "quick_update": {
+      "title": "Update Status",
+      "desc": "Record current condition in 3 clicks",
+      "button": "Update",
+      "stress_label": "Stress",
+      "stress_low": "Relaxed",
+      "stress_high": "Tense",
+      "energy_label": "Energy",
+      "energy_low": "Tired",
+      "energy_high": "Energetic",
+      "mood_label": "Mood",
+      "mood_low": "Low",
+      "mood_high": "Good",
+      "submit": "Save Log",
+      "cancel": "Cancel",
+      "success": "Saved!"
+    },
+    "comparison": {
+      "improved": "Improved",
+      "declined": "Declined",
+      "no_change": "Stable",
+      "vs_previous": "vs Previous"
+    },
+    "habits": {
+      "title": "Daily Habits",
+      "desc": "Complete habits to optimize condition",
+      "progress": "Today's Progress",
+      "recommended": "Recommended for You",
+      "recommended_desc": "Optimized for valid condition",
+      "morning_sun": "Morning Sunlight",
+      "walk": "Morning Walk",
+      "workout": "Workout",
+      "meditation": "Meditation",
+      "sauna": "Sauna / Cold Plunge",
+      "massage": "Massage",
+      "digital_detox": "Digital Detox",
+      "sleep": "7+ Hours Sleep",
+      "completed": "Done!",
+      "bonus": "Bonus",
+      "difficulty": "Difficulty",
+      "reset_notice": "Resets daily at 00:00"
+    },
+    "diagnosis": {
+      "title": "System Diagnostic Report",
+      "optimal": {
+        "title": "Peak Performance",
+        "desc": "All systems optimized. Ready for high-load tasks.",
+        "action": "New Challenges / High-ROI Tasks"
+      },
+      "brain_fog": {
+        "title": "Brain Fog (Overload)",
+        "desc": "Processing load increased. Cognitive function may be reduced.",
+        "action": "Simple Tasks / Reset Walk"
+      },
+      "low_battery": {
+        "title": "Physical Fatigue (Depleted)",
+        "desc": "Body energy is low. Thinking is clear, but conserve physical output.",
+        "action": "Stretching / Early Sleep"
+      },
+      "high_stress": {
+        "title": "Mental Instability",
+        "desc": "Mental load is high. Mandatory shutdown (rest) required.",
+        "action": "Meditation / Digital Detox"
+      },
+      "balanced_fatigue": {
+        "title": "General Drain",
+        "desc": "Resources low across the board. Operate in Low Power Mode.",
+        "action": "Warm Bath / Adequate Sleep"
+      },
+      "critical": {
+        "title": "Emergency Stop Recommended",
+        "desc": "System limits reached. Stop all activity immediately and recover.",
+        "action": "Immediate Rest"
+      },
+      "digital_overload": {
+        "title": "Digital Overload",
+        "desc": "Digital eye strain detected. Visual overload slowing processing speed.",
+        "action": "Hot Eye Mask / Distance Gaze"
+      },
+      "physical_tension": {
+        "title": "Physical Tension",
+        "desc": "Muscle hyper-tension. Sympathetic nervous system overactive.",
+        "action": "Massage / Stretching"
+      },
+      "deep_exhaustion": {
+        "title": "Deep Exhaustion",
+        "desc": "Accumulated deep fatigue. Surface rest won't help; deep sleep needed.",
+        "action": "Warm Bath / Prioritize Sleep"
+      },
+      "scattered_mind": {
+        "title": "Scattered Mind",
+        "desc": "Attention scattered. Multitasking has fragmented brain memory.",
+        "action": "Single Task / Meditation"
+      }
+    },
+    "back_to_dashboard": "Back to Dashboard",
+    "recovery_efficiency": "Recovery Efficiency"
+  }
+}
