@@ -5,7 +5,8 @@ import { Recommendation, DiagnosticState, Question, AnswerValue } from '@/lib/di
 import { QUESTIONS } from '@/lib/diagnostic/data';
 import { calculateScores, generateResult } from '@/lib/diagnostic/engine';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function ChatInterface() {
@@ -157,6 +158,7 @@ export default function ChatInterface() {
 
 function ResultView({ result }: { result: any }) {
     const t = useTranslations('diagnostic');
+    const locale = useLocale();
 
     return (
         <motion.div
@@ -319,18 +321,34 @@ function ResultView({ result }: { result: any }) {
                 <Section title={t('results.sections.products')} items={result.recommendations.products} color="amber" />
             </div>
 
-            <div className="mt-10 text-center">
-                <motion.a
-                    href="/ja/dashboard"
+            <div className="mt-12 pt-8 border-t border-white/5 text-center">
+                <div className="mb-6 flex flex-col items-center gap-2">
+                    <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20 mb-1">
+                        <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <p className="text-emerald-400 text-sm font-bold tracking-wider uppercase">Analysis Complete</p>
+                    <p className="text-slate-400 text-sm max-w-sm mx-auto">
+                        {t('results.disclaimer')}
+                    </p>
+                </div>
+
+                <motion.div
                     whileHover={{ scale: 1.02, y: -2 }}
                     whileTap={{ scale: 0.98 }}
-                    className="inline-block bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all cursor-pointer"
+                    className="inline-block"
                 >
-                    {t('results.cta')}
-                </motion.a>
-                <p className="text-xs text-slate-500 mt-4">
-                    {t('results.disclaimer')}
-                </p>
+                    <Link
+                        href={`/${locale}/dashboard`}
+                        className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all cursor-pointer"
+                    >
+                        <span>{t('results.cta')}</span>
+                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </Link>
+                </motion.div>
             </div>
         </motion.div>
     );

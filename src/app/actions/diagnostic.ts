@@ -167,15 +167,34 @@ export async function getDiagnosticHistory() {
     const { data, error } = await supabase
         .from('diagnostic_logs')
         .select('created_at, cpu_load')
-        .eq('user_id', session.user.id) // Filter by user!
-        .order('created_at', { ascending: true })
-        .limit(7);
+        .eq('user_id', session.user.id)
+        .order('created_at', { ascending: false }) // Get latest first
+        .limit(30); // Fetch more to cover potential multiple entries per day
 
-    if (error) return [];
+    if (error || !data) return [];
 
+    // Filter to keep only the latest log for each day
+    const dailyMap = new Map();
+    // Using simple date string YYYY-MM-DD from ISO might differ from user timezone, 
+    // but consistent enough for graph. Ideally use user's timezone.
+    // For now, we assume standard ISO date partitioning.
+    for (const log of data) {
+        // Adjust to JST (UTC+9) for correct "day" grouping in Japan context
+        const dateObj = new Date(log.created_at);
+        const jstDate = new Date(dateObj.getTime() + 9 * 60 * 60 * 1000);
+        const dateStr = jstDate.toISOString().split('T')[0];
 
-    // Map to simple array for the graph if needed, or return as is
-    return data;
+        if (!dailyMap.has(dateStr)) {
+            dailyMap.set(dateStr, log);
+        }
+    }
+
+    // Convert back to array, sort ascending by date, and take last 7
+    const history = Array.from(dailyMap.values())
+        .sort((a: any, b: any) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
+        .slice(-7);
+
+    return history;
 }
 
 export async function performDailyCheckin(score: number) {
