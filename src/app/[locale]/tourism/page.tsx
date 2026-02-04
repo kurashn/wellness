@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Header from "@/components/Header";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 
 export default function TourismPage() {
     const t = useTranslations("TourismPage");
@@ -18,11 +19,18 @@ export default function TourismPage() {
 
             {/* Hero Section */}
             <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: 'url(/images/hero_bg.png)', filter: 'sepia(0.3) contrast(1.1)' }}
-                />
-                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
+                <div className="absolute inset-0">
+                    <Image
+                        src="/images/hero_bg.png"
+                        alt="Tourism background"
+                        fill
+                        quality={75}
+                        sizes="100vw"
+                        className="object-cover object-center"
+                        style={{ filter: 'sepia(0.3) contrast(1.1)' }}
+                    />
+                </div>
+                <div className="absolute inset-0 bg-black/40 md:backdrop-blur-[2px]" />
 
                 <div className="relative z-10 text-center text-white px-4">
                     <h1 className="text-4xl md:text-6xl font-bold font-exo drop-shadow-lg mb-4">

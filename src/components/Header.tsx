@@ -20,7 +20,7 @@ export default function Header({ theme = 'light' }: HeaderProps) {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 10);
         };
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
@@ -41,10 +41,10 @@ export default function Header({ theme = 'light' }: HeaderProps) {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isMobileMenuOpen
-                    ? 'bg-stone-50 py-3'
-                    : isScrolled
-                        ? 'bg-white/95 backdrop-blur-md shadow-sm py-3'
-                        : 'bg-transparent py-5'
+                ? 'bg-stone-50 py-3'
+                : isScrolled
+                    ? 'bg-white/95 backdrop-blur-md shadow-sm py-3'
+                    : 'bg-transparent py-5'
                 }`}
         >
             <div className="max-w-[1920px] mx-auto px-6 xl:px-12 flex items-center justify-between">

@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Header from "@/components/Header";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 import {
   Dna,
   Sparkles,
@@ -24,16 +25,22 @@ export default function Home() {
 
       {/* Hero Section - Keep existing but ensure closing tag is correct */}
       <section className="relative flex-1 flex flex-col items-center justify-center p-8 text-center overflow-hidden min-h-[90vh]">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/images/hero_bg.png)' }}
-        >
-          <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
+        {/* Background Image - optimized with Next.js Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/hero_bg.png"
+            alt="Hero background"
+            fill
+            priority
+            quality={75}
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-black/40 md:backdrop-blur-[2px]" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0B] via-transparent to-transparent" />
         </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto space-y-8 animate-in fade-in zoom-in duration-1000">
+        <div className="relative z-10 max-w-4xl mx-auto space-y-8">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white drop-shadow-lg font-exo">
             {t("title")}
           </h1>
@@ -60,8 +67,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/70 animate-bounce">
+        {/* Scroll Indicator - simplified animation for mobile */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/70 hidden md:block md:animate-bounce">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7-7-7" /></svg>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 export default function EventsPage() {
     const t = useTranslations("EventsPage");
@@ -30,11 +31,18 @@ export default function EventsPage() {
             <Header />
 
             <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: 'url(/images/hero_bg.png)', filter: 'hue-rotate(15deg) sepia(0.2)' }}
-                />
-                <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+                <div className="absolute inset-0">
+                    <Image
+                        src="/images/hero_bg.png"
+                        alt="Events background"
+                        fill
+                        quality={75}
+                        sizes="100vw"
+                        className="object-cover object-center"
+                        style={{ filter: 'hue-rotate(15deg) sepia(0.2)' }}
+                    />
+                </div>
+                <div className="absolute inset-0 bg-black/30 md:backdrop-blur-[2px]" />
                 <div className="relative z-10 text-center text-white px-4">
                     <h1 className="text-4xl md:text-5xl font-bold font-exo drop-shadow-lg mb-4">{t("title")}</h1>
                     <p className="text-xl md:text-2xl font-light tracking-wide opacity-90">{t("subtitle")}</p>
